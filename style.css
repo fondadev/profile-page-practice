@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  width: 300px;
+  background: #dcc8dc;
+  color: #fff;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 40px;
+}
+
+.name p {
+  border-bottom: 1px solid #8f64ad;
+  font-size: 20px;
+}
+.left img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px; /* 少し丸く */
+  margin-bottom: 20px;
+}
